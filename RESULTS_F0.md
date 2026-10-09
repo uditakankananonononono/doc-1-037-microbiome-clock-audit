@@ -4,7 +4,7 @@ Unit: source position 37, A "Microbiome Clock" for Aging. Source request covers 
 
 ## Verdict
 
-UNRESOLVED on the fixed A-G documentary set. Full GO is impossible by construction at F0 because actual F1 readiness remains untested/UNKNOWN. The records do not support even a complete GO-ready F1 registration yet: age measurement/unit, cohort independence/overlap, independent accelerated-aging endpoint, data rights and execution readiness remain unresolved.
+UNRESOLVED on the fixed A-G documentary set because M1-M5 are UNKNOWN-by-construction on documentation routes, not because the routes were found incompatible; this is not a negative result. Full GO is impossible by construction at F0 because actual F1 readiness remains untested/UNKNOWN. The records do not support even a complete GO-ready F1 registration yet: age measurement/unit, cohort independence/overlap, independent accelerated-aging endpoint, data rights and execution readiness remain unresolved.
 
 This is not a full-set STOP. No affirmative incompatibility was established for all three enumerated designs (AGP-only, cMD-only single/multi-study, AGP+cMD pooled). None is registered for fitting. The pooled-without-bridge design remains UNKNOWN and unregistered: D explicitly describes AGP 16S V4, but the permitted C extract describes MetaPhlAn3/HUMAnN3 without explicitly stating the cMD assay is shotgun. That missing explicit statement cannot be supplied from general knowledge to trigger FAIL.
 
@@ -17,7 +17,7 @@ Predicted-minus-chronological age, a score built from the same microbiome featur
 - Tagged protocol readback byte-identical, SHA256 e873b8edf842ab15bbbc16cd4a8b31d11c8dcd68f6c0eaf3817b1a40813fa08e.
 - Builder-reported first-fetch UTC A-C: 2026-10-09T22:15:41Z; D-G: 2026-10-09T22:15:42Z. Both strictly after cutoff. These time files are not published; only their hashes below are published. They are builder records, not independently attested source timestamps.
 - A-G were freshly re-fetched after lock. All exact-document markers matched. Pre-lock fetches are exposure, not RESULTS evidence.
-- Lock gate SCOPED PASS received after admission; draft gate had already authorized locking and admission. No values or fitting occurred. The frozen admission prose retains the stale phrase "After the parent gates this draft"; RESULTS does not adopt that wording as current status.
+- Builder verified the lock via GitHub API; fetches ran after the 22:15:28Z cutoff; gate lock re-review landed afterwards. No values or fitting occurred. The frozen admission prose retains the stale phrase "After the parent gates this draft"; RESULTS does not adopt that wording as current status.
 
 ## Fixed route records and raw-capture hashes
 
@@ -75,6 +75,7 @@ The collision screen exposed CBIO003 controls age-prediction R-squared 0.26/0.19
 Post-lock raw A contains Examples text left unread; C retains usage/install examples left unread; D retains count/output/analysis/figure sections left unread apart from the extraction deviations below. B object dimensions and F processing-depth/debug-subset illustrations were read, but are not cohort eligibility counts. No raw capture of public examples is treated as an enrolled dataset.
 
 Deviations:
+- B object dimensions and F processing-depth/debug-subset illustrations were read during post-lock admission. These are documentation illustrations, not eligible cohort denominators or participant age/abundance values; none was used to choose thresholds or designs.
 - D's initial field-name extraction included a duplicate-subject example code line containing host_subject_id. It was seen, never executed, and removed from the curated extract. Only the field name and documentary grouping illustration are used.
 - A second D extraction to recover study 10317 incidentally displayed exercise-category illustrative counts (1510, 28017, 26027) and command text. They were seen, not executed or used for any gate or design threshold, then removed from curated evidence. This broad substring extraction was too permissive; final extract uses only predefined documentary facts.
 - These are tutorial examples, not participant ages/abundances or age-prediction outcomes. All unrelated tutorial model/statistical outputs remain unread during admission. No analysis code, redbiom request, package install, FTP download, data table or mapping-file read occurred.
